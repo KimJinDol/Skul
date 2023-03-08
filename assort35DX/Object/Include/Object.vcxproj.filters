@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Object">
+      <UniqueIdentifier>{1eeca895-1010-4103-97c7-a66dcae6e576}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation">
+      <UniqueIdentifier>{a65da7e9-ccf8-483a-b2a5-b7731dac3c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI">
+      <UniqueIdentifier>{5d4e40a3-0987-495c-9322-58c24b451a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\01. Skul">
+      <UniqueIdentifier>{4110fa37-6630-419b-bd0c-a0e052ebea0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\01. Skul">
+      <UniqueIdentifier>{dc867ba5-ea38-406a-aa28-e644150f5eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\01. Skul">
+      <UniqueIdentifier>{b484f35a-9473-436a-99c0-4b68efa48751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\01. Skul\01. Default">
+      <UniqueIdentifier>{0bcdf4ab-bfc4-44e0-81b5-cfb378074054}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\01. Skul\02. ChiefGuard">
+      <UniqueIdentifier>{9574aabe-0ac0-4b31-bd8f-782eb34bdea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. AI">
+      <UniqueIdentifier>{179c4dd7-fa82-4ab0-8f5f-ae9cb6e688a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\03. MapObject">
+      <UniqueIdentifier>{9e1d6cc8-669a-4b3e-b881-87595267adf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. AI\01. Ogre">
+      <UniqueIdentifier>{b05ab07a-7332-4d8d-a95f-fc64ea93dced}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\02. AI">
+      <UniqueIdentifier>{7eedb577-3d2e-4eaa-819d-3a3cf68a9268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\02. AI\01. Ogre">
+      <UniqueIdentifier>{9d3e15f4-1250-411e-88a5-ea40fd464df1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\02. AI">
+      <UniqueIdentifier>{88809d40-5933-46ab-bd45-d7e06d17548b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. AI\02. Warrior">
+      <UniqueIdentifier>{e3f11170-261e-41ad-8f74-1de79c9cf01b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\02. AI\02. TrashEnemy">
+      <UniqueIdentifier>{cfcbce74-e868-4053-801e-c385f32477e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\02. AI\02. TrashEnemy">
+      <UniqueIdentifier>{81b3d74d-e304-4910-bdc5-b23e8b247273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\02. AI\02. TrashEnemy\01. Warrior">
+      <UniqueIdentifier>{d659c6f3-6d56-4b9d-a413-a967efc27e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. AI\03. Kuma">
+      <UniqueIdentifier>{5d5a3b23-f868-454c-9530-8d982af1f997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\02. AI\03. Kuma">
+      <UniqueIdentifier>{38fa4a53-1b82-41d9-8e9b-985a0eb5304f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\02. AI\01. Boss">
+      <UniqueIdentifier>{7c36792e-1c19-4e17-b65e-e1372bea22ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. UI\03. DisplayAnim">
+      <UniqueIdentifier>{f7379baa-fe06-4f37-83d3-1d8a523e2e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. AI\03. Kuma\AI">
+      <UniqueIdentifier>{f8490c89-bb58-4556-9805-e147a0687957}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. AI\04. Archer">
+      <UniqueIdentifier>{76d8e7bb-48a6-4201-8d0a-bdde430926eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Animation\02. AI\04. Archer">
+      <UniqueIdentifier>{c6779c55-541c-43e1-aee0-73f84bc8d399}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object\Skul.h">
+      <Filter>01. Object\01. Skul</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\SkulAnimation.h">
+      <Filter>02. Animation\01. Skul</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SkulWidget.h">
+      <Filter>03. UI\01. Skul</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SkulDefaultHead.h">
+      <Filter>01. Object\01. Skul\01. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\FireBall.h">
+      <Filter>01. Object\01. Skul\02. ChiefGuard</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\OgreAI.h">
+      <Filter>01. Object\02. AI\01. Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AISelectOgre.h">
+      <Filter>01. Object\02. AI\01. Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\OgreAnimation.h">
+      <Filter>02. Animation\02. AI\01. Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\BossWidget.h">
+      <Filter>03. UI\02. AI\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\WarriorAI.h">
+      <Filter>01. Object\02. AI\02. Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\TrashEnemyAI.h">
+      <Filter>01. Object\02. AI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\TrashEnemyWidget.h">
+      <Filter>03. UI\02. AI\02. TrashEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\WarriorAnimation.h">
+      <Filter>02. Animation\02. AI\02. TrashEnemy\01. Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AISelectWarrior.h">
+      <Filter>01. Object\02. AI\02. Warrior</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\KumaAI.h">
+      <Filter>01. Object\02. AI\03. Kuma</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\KumaAnimation.h">
+      <Filter>02. Animation\02. AI\03. Kuma</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\KumaRock.h">
+      <Filter>01. Object\02. AI\03. Kuma</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\KumaShield.h">
+      <Filter>01. Object\02. AI\03. Kuma</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AISelectKuma.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AITask_EarthHit.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AITask_JumpStamping.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AITask_Stamping.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\CAITask_Ultimate.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\KumaShieldAnimation.h">
+      <Filter>02. Animation\02. AI\03. Kuma</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AITask_Shield.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AITask_Tackle.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AITask_Intro.h">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ArcherAI.h">
+      <Filter>01. Object\02. AI\04. Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation2D\ArcherAnimation.h">
+      <Filter>02. Animation\02. AI\04. Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\AISelectArcher.h">
+      <Filter>01. Object\02. AI\04. Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ArcherArrow.h">
+      <Filter>01. Object\02. AI\04. Archer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object\Skul.cpp">
+      <Filter>01. Object\01. Skul</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\SkulAnimation.cpp">
+      <Filter>02. Animation\01. Skul</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SkulWidget.cpp">
+      <Filter>03. UI\01. Skul</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SkulDefaultHead.cpp">
+      <Filter>01. Object\01. Skul\01. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\FireBall.cpp">
+      <Filter>01. Object\01. Skul\02. ChiefGuard</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\OgreAI.cpp">
+      <Filter>01. Object\02. AI\01. Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AISelectOgre.cpp">
+      <Filter>01. Object\02. AI\01. Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\OgreAnimation.cpp">
+      <Filter>02. Animation\02. AI\01. Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\BossWidget.cpp">
+      <Filter>03. UI\02. AI\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\WarriorAI.cpp">
+      <Filter>01. Object\02. AI\02. Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\TrashEnemyAI.cpp">
+      <Filter>01. Object\02. AI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\TrashEnemyWidget.cpp">
+      <Filter>03. UI\02. AI\02. TrashEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\WarriorAnimation.cpp">
+      <Filter>02. Animation\02. AI\02. TrashEnemy\01. Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AISelectWarrior.cpp">
+      <Filter>01. Object\02. AI\02. Warrior</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\KumaAI.cpp">
+      <Filter>01. Object\02. AI\03. Kuma</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\KumaAnimation.cpp">
+      <Filter>02. Animation\02. AI\03. Kuma</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\KumaShield.cpp">
+      <Filter>01. Object\02. AI\03. Kuma</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\KumaRock.cpp">
+      <Filter>01. Object\02. AI\03. Kuma</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AISelectKuma.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AITask_EarthHit.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AITask_JumpStamping.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AITask_Stamping.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\CAITask_Ultimate.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\KumaShieldAnimation.cpp">
+      <Filter>02. Animation\02. AI\03. Kuma</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AITask_Shield.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AITask_Tackle.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AITask_Intro.cpp">
+      <Filter>01. Object\02. AI\03. Kuma\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ArcherAI.cpp">
+      <Filter>01. Object\02. AI\04. Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation2D\ArcherAnimation.cpp">
+      <Filter>02. Animation\02. AI\04. Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\AISelectArcher.cpp">
+      <Filter>01. Object\02. AI\04. Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ArcherArrow.cpp">
+      <Filter>01. Object\02. AI\04. Archer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

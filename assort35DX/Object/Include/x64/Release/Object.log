@@ -1,0 +1,53 @@
+﻿  KumaAnimation.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Animation2D\KumaAnimation.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Resource\Animation2D.h': No such file or directory
+  KumaShieldAnimation.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Animation2D\KumaShieldAnimation.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Resource\Animation2D.h': No such file or directory
+  OgreAnimation.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Animation2D\OgreAnimation.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Resource\Animation2D.h': No such file or directory
+  SkulAnimation.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Animation2D\SkulAnimation.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Resource\Animation2D.h': No such file or directory
+  WarriorAnimation.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Animation2D\WarriorAnimation.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Resource\Animation2D.h': No such file or directory
+  AISelectKuma.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AISelectKuma.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AISelect.h': No such file or directory
+  AISelectOgre.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AISelectOgre.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AISelect.h': No such file or directory
+  AISelectWarrior.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AISelectWarrior.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AISelect.h': No such file or directory
+  AITask_EarthHit.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AITask_EarthHit.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AITask.h': No such file or directory
+  AITask_JumpStamping.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AITask_JumpStamping.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AITask.h': No such file or directory
+  AITask_Shield.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AITask_Shield.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AITask.h': No such file or directory
+  AITask_Stamping.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AITask_Stamping.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AITask.h': No such file or directory
+  AITask_Tackle.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\AITask_Tackle.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AITask.h': No such file or directory
+  CAITask_Ultimate.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\CAITask_Ultimate.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AITask.h': No such file or directory
+  FireBall.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\FireBall.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  KumaAI.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\KumaAI.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AICharacter.h': No such file or directory
+  KumaRock.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\KumaRock.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  KumaShield.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\KumaShield.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  OgreAI.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\OgreAI.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AICharacter.h': No such file or directory
+  Skul.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\Skul.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'Character.h': No such file or directory
+  컴파일하고 있습니다...
+  SkulDefaultHead.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\SkulDefaultHead.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'GameObject.h': No such file or directory
+  TrashEnemyAI.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\TrashEnemyAI.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AICharacter.h': No such file or directory
+  WarriorAI.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\Object\TrashEnemyAI.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'AICharacter.h': No such file or directory
+  BossWidget.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\UI\BossWidget.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'UI\WidgetWindow.h': No such file or directory
+  SkulWidget.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\UI\SkulWidget.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'UI\WidgetWindow.h': No such file or directory
+  TrashEnemyWidget.cpp
+C:\Users\johj1\Desktop\AssortRock35\DirectX11\assort35DX\Object\Include\UI\TrashEnemyWidget.h(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'UI\WidgetWindow.h': No such file or directory

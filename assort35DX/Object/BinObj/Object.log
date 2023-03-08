@@ -1,0 +1,77 @@
+﻿  ArcherAnimation.cpp
+  KumaAnimation.cpp
+  KumaShieldAnimation.cpp
+  OgreAnimation.cpp
+  SkulAnimation.cpp
+  WarriorAnimation.cpp
+  AISelectArcher.cpp
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectArcher.cpp(9,27): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectArcher.cpp(10,27): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectArcher.cpp(46,64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AISelectKuma.cpp
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectKuma.cpp(57,58): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectKuma.cpp(57,53): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectKuma.cpp(58,38): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AISelectOgre.cpp
+  AISelectWarrior.cpp
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\AISelectWarrior.cpp(46,64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  AITask_EarthHit.cpp
+  AITask_Intro.cpp
+  AITask_JumpStamping.cpp
+  AITask_Shield.cpp
+  AITask_Stamping.cpp
+  AITask_Tackle.cpp
+  ArcherAI.cpp
+  ArcherArrow.cpp
+  CAITask_Ultimate.cpp
+  FireBall.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  KumaAI.cpp
+  KumaRock.cpp
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\KumaRock.cpp(56,47): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\KumaRock.cpp(56,41): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\KumaRock.cpp(57,18): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\KumaRock.cpp(70,13): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  KumaShield.cpp
+  OgreAI.cpp
+  Skul.cpp
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\Skul.cpp(48,28): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\Skul.cpp(404,33): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\Skul.cpp(406,34): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\Skul.cpp(462,36): warning C4244: '*=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\Skul.cpp(941,51): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\Skul.cpp(941,43): warning C4244: '인수': 'float'에서 '_Ty'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+          with
+          [
+              _Ty=int
+          ]
+  SkulDefaultHead.cpp
+D:\Develop Game\Skul\assort35DX\Object\Include\Object\SkulDefaultHead.cpp(8,10): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TrashEnemyAI.cpp
+  WarriorAI.cpp
+  BossWidget.cpp
+  SkulWidget.cpp
+  TrashEnemyWidget.cpp
+  코드를 생성하고 있습니다...
+  Object.vcxproj -> D:\Develop Game\Skul\assort35DX\Object\Bin\Object.lib

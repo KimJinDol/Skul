@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{cd27e2c3-8856-49f4-8847-fe24516d7bb9}</ProjectGuid>
+    <RootNamespace>Object</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Bin/</OutDir>
+    <IntDir>../BinObj/</IntDir>
+    <IncludePath>../../Engine/Include/;</IncludePath>
+    <LibraryPath>../Bin/;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Engine/Include/</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation2D\ArcherAnimation.h" />
+    <ClInclude Include="Animation2D\KumaAnimation.h" />
+    <ClInclude Include="Animation2D\KumaShieldAnimation.h" />
+    <ClInclude Include="Animation2D\OgreAnimation.h" />
+    <ClInclude Include="Animation2D\SkulAnimation.h" />
+    <ClInclude Include="Animation2D\WarriorAnimation.h" />
+    <ClInclude Include="Object\AISelectArcher.h" />
+    <ClInclude Include="Object\AISelectKuma.h" />
+    <ClInclude Include="Object\AISelectOgre.h" />
+    <ClInclude Include="Object\AISelectWarrior.h" />
+    <ClInclude Include="Object\AITask_EarthHit.h" />
+    <ClInclude Include="Object\AITask_Intro.h" />
+    <ClInclude Include="Object\AITask_JumpStamping.h" />
+    <ClInclude Include="Object\AITask_Shield.h" />
+    <ClInclude Include="Object\AITask_Stamping.h" />
+    <ClInclude Include="Object\AITask_Tackle.h" />
+    <ClInclude Include="Object\ArcherAI.h" />
+    <ClInclude Include="Object\ArcherArrow.h" />
+    <ClInclude Include="Object\CAITask_Ultimate.h" />
+    <ClInclude Include="Object\FireBall.h" />
+    <ClInclude Include="Object\KumaAI.h" />
+    <ClInclude Include="Object\KumaRock.h" />
+    <ClInclude Include="Object\KumaShield.h" />
+    <ClInclude Include="Object\OgreAI.h" />
+    <ClInclude Include="Object\Skul.h" />
+    <ClInclude Include="Object\SkulDefaultHead.h" />
+    <ClInclude Include="Object\TrashEnemyAI.h" />
+    <ClInclude Include="Object\WarriorAI.h" />
+    <ClInclude Include="UI\BossWidget.h" />
+    <ClInclude Include="UI\SkulWidget.h" />
+    <ClInclude Include="UI\TrashEnemyWidget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation2D\ArcherAnimation.cpp" />
+    <ClCompile Include="Animation2D\KumaAnimation.cpp" />
+    <ClCompile Include="Animation2D\KumaShieldAnimation.cpp" />
+    <ClCompile Include="Animation2D\OgreAnimation.cpp" />
+    <ClCompile Include="Animation2D\SkulAnimation.cpp" />
+    <ClCompile Include="Animation2D\WarriorAnimation.cpp" />
+    <ClCompile Include="Object\AISelectArcher.cpp" />
+    <ClCompile Include="Object\AISelectKuma.cpp" />
+    <ClCompile Include="Object\AISelectOgre.cpp" />
+    <ClCompile Include="Object\AISelectWarrior.cpp" />
+    <ClCompile Include="Object\AITask_EarthHit.cpp" />
+    <ClCompile Include="Object\AITask_Intro.cpp" />
+    <ClCompile Include="Object\AITask_JumpStamping.cpp" />
+    <ClCompile Include="Object\AITask_Shield.cpp" />
+    <ClCompile Include="Object\AITask_Stamping.cpp" />
+    <ClCompile Include="Object\AITask_Tackle.cpp" />
+    <ClCompile Include="Object\ArcherAI.cpp" />
+    <ClCompile Include="Object\ArcherArrow.cpp" />
+    <ClCompile Include="Object\CAITask_Ultimate.cpp" />
+    <ClCompile Include="Object\FireBall.cpp" />
+    <ClCompile Include="Object\KumaAI.cpp" />
+    <ClCompile Include="Object\KumaRock.cpp" />
+    <ClCompile Include="Object\KumaShield.cpp" />
+    <ClCompile Include="Object\OgreAI.cpp" />
+    <ClCompile Include="Object\Skul.cpp" />
+    <ClCompile Include="Object\SkulDefaultHead.cpp" />
+    <ClCompile Include="Object\TrashEnemyAI.cpp" />
+    <ClCompile Include="Object\WarriorAI.cpp" />
+    <ClCompile Include="UI\BossWidget.cpp" />
+    <ClCompile Include="UI\SkulWidget.cpp" />
+    <ClCompile Include="UI\TrashEnemyWidget.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

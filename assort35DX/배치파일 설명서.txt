@@ -1,0 +1,14 @@
+cd..   (현재 디렉토리에서 상위 폴더로 이동)
+cd..
+
+(xcopy	: 배치파일 또는 cmd창에서 파일/폴더 복사 시 사용되는 명령어)
+(/s	: 비어있지 않은 디렉터리와 하위 디렉터리를 복사한다.)
+(/d	: 지정된 날짜 이후에 바뀐 파일만 복사한다.)
+(/y	: 이미 있는 대상 파일을 덮어쓸지를 확인하기 위해 묻는 것을 금한다.)
+
+xcopy .\GameEngine\Include\*.h .\Engine\Include\ /s /d /y
+
+xcopy .\GameEngine\Bin\*.lib .\Engine\Bin\ /s /d /y
+xcopy .\GameEngine\Bin\*.lib .\Client2D\Bin\ /s /d /y
+xcopy .\GameEngine\Bin\Shader\ .\Engine\Bin\Shader\ /s /d /y
+xcopy .\GameEngine\Bin\Shader\ .\Client2D\Bin\Shader\ /s /d /y
