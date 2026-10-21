@@ -1,5 +1,35 @@
-assort35DX/.vs/
-assort35DX/GameEngine/BinObj/
-assort35DX/Engine/BinObj/
-assort35DX/Editor/BinObj/
-assort35DX/Client2D/BinObj/
+# Visual Studio
+.vs/
+*.user
+*.aps
+*.VC.db
+*.VC.opendb
+imgui.ini
+
+# 빌드 결과물 (Copy.bat이 다시 만든다)
+Skul/Engine/
+Skul/*/Bin/*
+!Skul/GameEngine/Bin/
+Skul/GameEngine/Bin/*
+!Skul/GameEngine/Bin/Shader/
+Skul/*/BinObj/
+x64/
+*.exe
+*.pdb
+*.lib
+*.dll
+*.idb
+*.ilk
+*.cso
+
+# SVN 충돌 잔여 파일
+*.mine
+*.r[0-9]*
+
+# 외부 라이브러리 (직접 받아서 넣는다)
+fmod*
+imgui*.cpp
+imgui*.h
+imstb_*.h
+imconfig.h
+DirectXTex*
